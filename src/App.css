@@ -1,0 +1,39 @@
+/* global color  */
+
+:root{
+    --primary: #a6ffff;
+    --secondary: #009985;
+    --black: rgb(32, 32, 32);
+    --bg_color: #0D2436;
+    --font_color: #FFFFFF;
+    --font_color_hover: #CCCCCC;
+    --card_bg: silver;
+    --black2:black;
+}
+
+
+/* global button  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    min-height: 40px;
+    min-width: 100px;
+    border-radius: 5%;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: var(--secondary);
+    border: none;
+}
+.button.large{
+    min-width: 60px!important;
+    min-width: 120px!important;
+}
+.button:hover{
+    cursor: pointer;
+    border-top: 4px solid var(--primary);
+    overflow: hidden;
+}
